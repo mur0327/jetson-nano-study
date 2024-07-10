@@ -59,3 +59,6 @@ def predict(cfg=DEFAULT_CFG, use_python=False):
 ```bash
 python detectY8.py
 ```
+
+### 결과 사진
+![image](./src/images/example_image.jpg)
