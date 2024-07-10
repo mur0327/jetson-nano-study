@@ -40,11 +40,13 @@ vi detectY8.py
 ```python
 def predict(cfg=DEFAULT_CFG, use_python=False):
   brtsp = False # True -> False
+
   if brtsp:
     #cfg.source ='https://www.youtube.com/watch?v=yTIQMnnaBZo'
     cfg.source ='rtsp://admin:satech1234@192.168.0.151:554/udp/av0_0'
   else:
     cfg.source = 0
+
   cfg.imgsz = 640
   cfg.show    = True
   cfg.iou     = 0.45
